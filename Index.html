@@ -1,63 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>flex grid layout</title>
-  <!-- -- collage style --  -->
-  <link rel="stylesheet" href="style/collage.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flex grid layout</title>
+    <!-- -- collage style --  -->
+    <link rel="stylesheet" href="style/collage.css" />
+  </head>
+  <body>
+    <h2>My Picture Collag:</h2>
+    <section class="collage">
+      <div class="row">
+        <img src="images/A.jpg" alt="" />
+      </div>
+      <div class="row">
+        <div class="">
+          <img src="images/B.jpg" alt="" />
+        </div>
+        <div class="">
+          <img src="images/C.jpg" alt="" />
+        </div>
+        <div class="bertival-collage">
+          <img src="images/D.jpg" alt="" />
+          <img src="images/E.jpg" alt="" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="">
+          <img src="images/F.jpg" alt="" />
+        </div>
+        <div class="squire">
+          <img src="images/G.jpg" alt="" />
+          <img src="images/G.jpg" alt="" />
+          <img src="images/G.jpg" alt="" />
+          <img src="images/G.jpg" alt="" />
+        </div>
+        <div class="">
+          <img src="images/H.jpg" alt="" />
+        </div>
+      </div>
+    </section>
 
-</head>
-<body>
+    <!-- grid layout  -->
+    <div class="gird-layout ">
+      <div class="box" id="box-1">box-1</div>
+      <div class="box" id="box-2">box-2</div>
+      <div class="box" id="box-3">box-3</div>
+      <div class="box" id="box-4">box-4</div>
+      <div class="box" id="box-5">box-5</div>
+      <div class="box" id="box-6">box-6</div>
+      <div class="box" id="box-7">box-7</div>
+      <div class="box" id="box-8">box-8</div>
+      <div class="box" id="box-9">box-9</div>
+      <div class="box" id="box-10">box-10</div>
+      <div class="box" id="box-11">box-11</div>
+      <div class="box" id="box-12">box-12</div>
+    </div>
 
-  <h2>My Picture Collag:</h2>
-  <section class="collage  hide">
-    <div class="row">
-      <img src="images/A.jpg" alt="">
-    </div>
-    <div class="row">
-      <div class="">
-        <img src="images/B.jpg" alt="">
-      </div>
-      <div class="">
-        <img src="images/C.jpg" alt="">
-      </div>
-      <div class="bertival-collage">
-        <img src="images/D.jpg" alt="">
-        <img src="images/E.jpg" alt="">
-      </div>
-    </div>
-    <div class="row">
-      <div class="">
-        <img src="images/F.jpg" alt="">
-      </div>
-      <div class="squire">
-        <img src="images/G.jpg" alt="">
-        <img src="images/G.jpg" alt="">
-        <img src="images/G.jpg" alt="">
-        <img src="images/G.jpg" alt="">
-      </div>
-      <div class="">
-        <img src="images/H.jpg" alt="">
-      </div>
-    </div>
-  </section>
+    <!-- --- grid layout 2 --  -->
 
-  
-  <!-- grid layout  -->
-  <div class="gird-layout hide">
-    <div class="box" id="box-1">box-1</div>
-    <div class="box" id="box-2">box-2</div>
-    <div class="box" id="box-3">box-3</div>
-    <div class="box" id="box-4">box-4</div>
-    <div class="box" id="box-5">box-5</div>
-    <div class="box" id="box-6">box-6</div>
-    <div class="box" id="box-7">box-7</div>
-    <div class="box" id="box-8">box-8</div>
-    <div class="box" id="box-9">box-9</div>
-    <div class="box" id="box-10">box-10</div>
-    <div class="box" id="box-11">box-11</div>
-    <div class="box" id="box-12">box-12</div>
-   </div>
-</body>
+    <div class="container">
+      <header class="header">
+        <h3>The Header</h3>
+      </header>
+      <nav class="nav">
+        <ul>
+          <li>nav-1</li>
+          <li>nav-2</li>
+          <li>nav-3</li>
+          <li>nav-4</li>
+        </ul>
+      </nav>
+      <main class="main">
+        <article>
+          <h3>Main Article 1</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus
+            unde, laborum delectus sit quod eos, veniam, assumenda saepe fugiat
+            error adipisci accusantium exercitationem harum. Alias minima
+            excepturi sequi numquam obcaecati!
+          </p>
+        </article>
+        <article>
+          <h3>Main Article 2</h3>
+          <p>
+            Numquam rem aspernatur aut corporis vitae dolore nihil cum aliquam
+            iusto ratione vero, accusamus, quos ipsum hic quasi porro maxime
+            laboriosam consequatur sequi maiores nisi ab nobis in? Vel,
+            cupiditate.
+          </p>
+        </article>
+      </main>
+      <div class="sidebr">
+        <p>Sidebr</p>
+      </div>
+      <div class="advise">
+        <p>asveritse</p>
+      </div>
+      <footer class="footer">
+        <p>this is footer</p>
+      </footer>
+    </div>
+  </body>
 </html>
