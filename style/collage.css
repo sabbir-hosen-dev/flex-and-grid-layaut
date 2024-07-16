@@ -2,7 +2,30 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
+
 }
+.hide{
+  display: none;
+}
+
+/* grid -layout  */
+.gird-layout{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 200px) 50px 50px;
+  gap: 20px;
+}
+#box-1{
+  grid-row: span 5;
+}
+#box-11 , #box-12{
+  grid-column: span 3;
+}
+.box{
+  background: gray;
+  border-radius: 5px;
+}
+
 img{
   width: 100%;
   height: 100%
@@ -30,6 +53,11 @@ h2{
   grid-template-columns: repeat(2 , 1fr);
   gap:5px;
 }
+
+
+
+/* flex layout start  */
+
 
 @media screen and (max-width:576px) {
   .row{
